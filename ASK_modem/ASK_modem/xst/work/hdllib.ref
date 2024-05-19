@@ -1,0 +1,4 @@
+EN ask_modulator NULL C:/Xilinx/ASK_modem/ask_modulator.vhd sub00/vhpl02 1715939504
+AR ask_modulator behavioral C:/Xilinx/ASK_modem/ask_modulator.vhd sub00/vhpl03 1715939505
+AR ask_demodulator behavioral C:/Xilinx/ASK_modem/ask_demodulator.vhd sub00/vhpl01 1716116676
+EN ask_demodulator NULL C:/Xilinx/ASK_modem/ask_demodulator.vhd sub00/vhpl00 1716116675

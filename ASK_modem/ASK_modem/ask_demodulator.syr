@@ -1,0 +1,210 @@
+Release 8.1i - xst I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.13 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.13 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: ask_demodulator.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+     5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ask_demodulator.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ask_demodulator"
+Output Format                      : NGC
+Target Device                      : Automotive CoolRunner2
+
+---- Source Options
+Top Module Name                    : ask_demodulator
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : YES
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+
+---- Other Options
+lso                                : ask_demodulator.lso
+verilog2001                        : YES
+safe_implementation                : No
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/ASK_modem/ask_demodulator.vhd" in Library work.
+Entity <ask_demodulator> compiled.
+Entity <ask_demodulator> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ask_demodulator> (Architecture <behavioral>).
+Entity <ask_demodulator> analyzed. Unit <ask_demodulator> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ask_demodulator>.
+    Related source file is "C:/Xilinx/ASK_modem/ask_demodulator.vhd".
+    Found 1-bit register for signal <demodulated_out>.
+    Found 32-bit comparator greatequal for signal <$n0003> created at line 45.
+    Found 1-bit xor2 for signal <$n0004> created at line 39.
+    Found 1-bit register for signal <prev_sample>.
+    Found 32-bit up counter for signal <sample_count>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Xor(s).
+Unit <ask_demodulator> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 2
+ 1-bit register                                        : 2
+# Comparators                                          : 1
+ 32-bit comparator greatequal                          : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ask_demodulator> ...
+  implementation constraint: INIT=r	 : sample_count_0
+  implementation constraint: INIT=r	 : prev_sample
+  implementation constraint: INIT=r	 : sample_count_31
+  implementation constraint: INIT=r	 : sample_count_30
+  implementation constraint: INIT=r	 : sample_count_29
+  implementation constraint: INIT=r	 : sample_count_28
+  implementation constraint: INIT=r	 : sample_count_27
+  implementation constraint: INIT=r	 : sample_count_26
+  implementation constraint: INIT=r	 : sample_count_25
+  implementation constraint: INIT=r	 : sample_count_24
+  implementation constraint: INIT=r	 : sample_count_23
+  implementation constraint: INIT=r	 : sample_count_22
+  implementation constraint: INIT=r	 : sample_count_21
+  implementation constraint: INIT=r	 : sample_count_20
+  implementation constraint: INIT=r	 : sample_count_19
+  implementation constraint: INIT=r	 : sample_count_18
+  implementation constraint: INIT=r	 : sample_count_17
+  implementation constraint: INIT=r	 : sample_count_16
+  implementation constraint: INIT=r	 : sample_count_15
+  implementation constraint: INIT=r	 : sample_count_14
+  implementation constraint: INIT=r	 : sample_count_13
+  implementation constraint: INIT=r	 : sample_count_12
+  implementation constraint: INIT=r	 : sample_count_11
+  implementation constraint: INIT=r	 : sample_count_10
+  implementation constraint: INIT=r	 : sample_count_9
+  implementation constraint: INIT=r	 : sample_count_8
+  implementation constraint: INIT=r	 : sample_count_7
+  implementation constraint: INIT=r	 : sample_count_6
+  implementation constraint: INIT=r	 : sample_count_5
+  implementation constraint: INIT=r	 : sample_count_4
+  implementation constraint: INIT=r	 : sample_count_3
+  implementation constraint: INIT=r	 : sample_count_2
+  implementation constraint: INIT=r	 : sample_count_1
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ask_demodulator.ngr
+Top Level Output File Name         : ask_demodulator
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : Automotive CoolRunner2
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 3
+
+Cell Usage :
+# BELS                             : 111
+#      AND2                        : 65
+#      GND                         : 1
+#      INV                         : 3
+#      OR2                         : 7
+#      OR8                         : 3
+#      XOR2                        : 32
+# FlipFlops/Latches                : 34
+#      FD                          : 33
+#      FDCE                        : 1
+# IO Buffers                       : 3
+#      IBUF                        : 2
+#      OBUF                        : 1
+=========================================================================
+CPU : 3.09 / 3.23 s | Elapsed : 3.00 / 3.00 s
+ 
+--> 
+
+Total memory usage is 155644 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

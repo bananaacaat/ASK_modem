@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+ask_demodulator instance_name (
+    .clk(clk), 
+    .modulated_in(modulated_in), 
+    .demodulated_out(demodulated_out)
+    );
+
+

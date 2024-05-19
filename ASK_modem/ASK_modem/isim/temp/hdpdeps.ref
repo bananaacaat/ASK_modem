@@ -1,0 +1,6 @@
+V3 3
+FL C:/Xilinx/ASK_modem/ask_demodulator.vhd 2024/05/14.12:45:48 I.24
+EN isim_temp/ask_demodulator 1715683665 FL C:/Xilinx/ASK_modem/ask_demodulator.vhd \
+      PB ieee/std_logic_1164 1132105529
+AR isim_temp/ask_demodulator/Behavioral 1715683666 \
+      FL C:/Xilinx/ASK_modem/ask_demodulator.vhd EN isim_temp/ask_demodulator 1715683665

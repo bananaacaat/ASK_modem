@@ -1,0 +1,11 @@
+V3 6
+FL C:/Xilinx/ASK_modem/ask_demodulator.vhd 2024/05/14.12:45:48 I.24
+EN work/ask_demodulator 1716116675 FL C:/Xilinx/ASK_modem/ask_demodulator.vhd \
+      PB ieee/std_logic_1164 1131108373
+AR work/ask_demodulator/Behavioral 1716116676 FL C:/Xilinx/ASK_modem/ask_demodulator.vhd \
+      EN work/ask_demodulator 1716116675
+FL C:/Xilinx/ASK_modem/ask_modulator.vhd 2024/05/14.12:45:39 I.24
+EN work/ask_modulator 1715939504   FL C:/Xilinx/ASK_modem/ask_modulator.vhd \
+      PB ieee/std_logic_1164 1131108373
+AR work/ask_modulator/Behavioral 1715939505 FL C:/Xilinx/ASK_modem/ask_modulator.vhd \
+      EN work/ask_modulator 1715939504

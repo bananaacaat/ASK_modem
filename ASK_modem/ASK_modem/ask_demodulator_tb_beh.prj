@@ -1,0 +1,2 @@
+vhdl work "ask_demodulator.vhd"
+vhdl work "ask_demodulator_tb.vhw"

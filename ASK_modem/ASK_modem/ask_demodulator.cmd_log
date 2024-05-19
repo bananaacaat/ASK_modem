@@ -1,0 +1,7 @@
+xst -ise "c:/Xilinx/ASK_modem/ASK_modem" -intstyle ise -ifn ask_demodulator.xst -ofn ask_demodulator.syr
+xst -ise "c:/Xilinx/ASK_modem/ASK_modem" -intstyle ise -ifn ask_demodulator.xst -ofn ask_demodulator.syr
+xst -ise "c:/Xilinx/ASK_modem/ASK_modem" -intstyle ise -ifn ask_demodulator.xst -ofn ask_demodulator.syr
+xst -ise "c:/Xilinx/ASK_modem/ASK_modem" -intstyle ise -ifn ask_demodulator.xst -ofn ask_demodulator.syr
+xst -ise "C:/Xilinx/ASK_modem/ASK_modem" -intstyle ise -ifn ask_demodulator.xst -ofn ask_demodulator.syr
+xst -ise "C:/Xilinx/ASK_modem/ASK_modem" -intstyle ise -ifn ask_demodulator.xst -ofn ask_demodulator.syr
+xst -ise "C:/Xilinx/ASK_modem/ASK_modem" -intstyle ise -ifn ask_demodulator.xst -ofn ask_demodulator.syr

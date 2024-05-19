@@ -1,0 +1,3 @@
+MODULE ask_modulator_tb
+SUBMODULE ask_modulator
+INSTANCE UUT

@@ -1,0 +1,8 @@
+EN ask_modulator NULL C:/Xilinx/ASK_modem/ask_modulator.vhd sub00/vhpl04 1715866069
+EN ask_demodulator_tb NULL C:/Xilinx/ASK_modem/ask_demodulator_tb.vhw sub00/vhpl02 1715939497
+AR ask_modulator_tb testbench_arch C:/Xilinx/ASK_modem/ask_modulator_tb.vhw sub00/vhpl07 1715866072
+AR ask_modulator behavioral C:/Xilinx/ASK_modem/ask_modulator.vhd sub00/vhpl05 1715866070
+AR ask_demodulator behavioral C:/Xilinx/ASK_modem/ask_demodulator.vhd sub00/vhpl01 1715939496
+EN ask_modulator_tb NULL C:/Xilinx/ASK_modem/ask_modulator_tb.vhw sub00/vhpl06 1715866071
+AR ask_demodulator_tb testbench_arch C:/Xilinx/ASK_modem/ask_demodulator_tb.vhw sub00/vhpl03 1715939498
+EN ask_demodulator NULL C:/Xilinx/ASK_modem/ask_demodulator.vhd sub00/vhpl00 1715939495
